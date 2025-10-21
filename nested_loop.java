@@ -18,7 +18,15 @@ public class nested_loop {
         }
     }
 
+    static void patt_3(int x){
+        for(int i =1; i<=x; i++){
+            for(int j=1; j<=i; j++){
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+    }
     public static void main(String[] args) {
-        patt_2(4);
+        patt_3(4);
     }
 }
